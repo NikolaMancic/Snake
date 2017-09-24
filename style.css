@@ -1,0 +1,140 @@
+div#content
+{
+    width: 1115px;
+    height: 630px;
+    margin: 0 auto;
+}
+
+div#ui
+{
+    position: relative;
+    font-family: 'Chewy', cursive;
+    text-align: center;
+    color: darkcyan;
+    height: 500px;
+    width: 200px;
+    float: left;
+    display: inline-block;
+    border: 10px solid lightblue;
+    border-radius: 30px;
+    margin-top: 40px;
+    margin-right: 25px;
+}
+
+h1#title
+{
+    margin-bottom: 150px;
+}
+
+h2#continue
+{
+    position : absolute;
+    bottom: 40px;
+    left: 50px;
+}
+
+h2#back
+{
+    position : absolute;
+    bottom: 0;
+    left: 70px;
+}
+
+div#container
+{
+    float: left;
+    width   : 630px;
+    height  : 630px;
+    background-image: url("sprites/menu.png");
+    background-repeat: no-repeat;
+    line-height: 0;
+}
+
+div#decor
+{
+    /* The dimensions are determined by
+    the largest snake.png image*/
+    width: 209px;
+    height: 465px;
+    margin-top: 40px;
+    margin-left: 25px;
+    float:left;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+div.stageSelect
+{
+    display  : inline-block;
+    width    : 180px;
+    height   : 180px;
+    border   : 3px solid black;
+    margin   : 10px;
+}
+
+div.selectedStage
+{
+    display  : inline-block;
+    width    : 180px;
+    height   : 180px;
+    border   : 3px solid yellow;
+    margin   : 10px;
+}
+
+div.sheetSelect
+{
+    display  : inline-block;
+    width    : 180px;
+    height   : 89px;
+    border   : 3px solid black;
+    margin   : 10px;
+}
+
+div.selectedSheet
+{
+    display  : inline-block;
+    width    : 180px;
+    height   : 89px;
+    border   : 3px solid yellow;
+    margin   : 10px;
+}
+
+canvas
+{
+    display : block;
+    margin  : 0 auto;
+    border  : 1px black solid;
+}
+
+body
+{
+    background-color: lightcyan;
+    background-repeat: repeat-x;
+    background-position: bottom left;
+}
+
+span#score
+{
+    color: red;
+}
+
+html
+{
+    min-height: 100%;
+}
+
+span.tile
+{
+    width: 41px;
+    height: 41px;
+    display: inline-block;
+    border-left: 1px dashed lightgray;
+    border-bottom: 1px dashed lightgray;
+}
+
+div#fork
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
